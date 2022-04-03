@@ -13,7 +13,7 @@ describe('<Header />', () => {
   test('Render of Header ', () => {
     expect(header.length).toEqual(1);
   });
-  test('Render title', () => {
+  test('Render title correctly', () => {
     const header = mount(
       <ProviderMock>
         <Header />
